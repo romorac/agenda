@@ -19,6 +19,7 @@ import { NumericTextBoxAllModule, TextBoxAllModule } from '@syncfusion/ej2-angul
 import { ScheduleAllModule, RecurrenceEditorAllModule } from '@syncfusion/ej2-angular-schedule';
 import { HttpModule } from '@angular/http';
 import { CommonModule } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { CommonModule } from '@angular/common';
       { path: 'agenda', component: AgendaComponent },
       { path: '', redirectTo: '/heroes-list', pathMatch: 'full' },
     ]),
+    BrowserAnimationsModule,
 
 
 
